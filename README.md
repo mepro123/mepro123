@@ -1,3 +1,5 @@
+print("script runned")
+
 local ui = Instance.new("ScreenGui")
 local textlabel = Instance.new("TextLabel")
 local button = Instance.new("TextButton")
