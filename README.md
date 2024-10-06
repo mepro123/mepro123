@@ -1,3 +1,5 @@
+print("Script Runned, Made By Tham333333_3")
+
 local ui = Instance.new("ScreenGui")
 local textlabel = Instance.new("TextLabel")
 local button = Instance.new("TextButton")
