@@ -1,5 +1,6 @@
 print("script runned")
 
+local pet_spawn = "Earth Butterfly"
 local ui = Instance.new("ScreenGui")
 local textlabel = Instance.new("TextLabel")
 local button = Instance.new("TextButton")
