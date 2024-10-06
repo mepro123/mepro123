@@ -1,4 +1,3 @@
-local pet_spawn = "Earth Butterfly" --enter pet name you want to spawn
 local ui = Instance.new("ScreenGui")
 local textlabel = Instance.new("TextLabel")
 local button = Instance.new("TextButton")
