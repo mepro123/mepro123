@@ -1,6 +1,6 @@
-print("script runned")
+print("script runned") --just to make sure this works well
+local pet_spawn = "Earth Butterfly" --enter the pet you want here
 
-local pet_spawn = "Earth Butterfly"
 local ui = Instance.new("ScreenGui")
 local textlabel = Instance.new("TextLabel")
 local button = Instance.new("TextButton")
@@ -24,7 +24,7 @@ button.Text = "Spawn "..pet_spawn
 button_2.Parent = button
 button_2.Position = UDim2.new(-0.003, 0,0.995, 0)
 button_2.Size = UDim2.new(0, 260,0, 36)
-button_2.Text = "Close UI[K TO OPEN]"
+button_2.Text = "Close UI [K TO OPEN]"
 button_2.TextScaled = true
 button_3.Parent = button
 button_3.Position = UDim2.new(-0.003, 0,1.399, 0)
@@ -100,5 +100,5 @@ end)
 UserInputService.InputChanged:Connect(function(input)
 	if input == dragInput and dragging then
 		update(input)
-	end
+	end --scroll down to line 1 to change pets you want
 end)
